@@ -1,12 +1,12 @@
 // Global Scope Variables
 
-let burgers = ['Hamburger', 'Cheeseburger'];
+const burgers = ['Hamburger', 'Cheeseburger'];
 let featuredDrink = 'Strawberry Milkshake'; 
 
 // Adding a New Burger
 
 function addBurger() {
-    let newBurger = 'Flatburger'; 
+    const newBurger = 'Flatburger'; 
     // Adding to Array 
     burgers.push(newBurger); 
 }
@@ -15,8 +15,8 @@ addBurger();
 
 if (true) {
     // Block Scope and Push 
-    let anothernewBurger = 'Maple Bacon Burger'; 
-    burgers.push(anothernewBurger);
+    const anotherNewBurger = 'Maple Bacon Burger'; 
+    burgers.push(anotherNewBurger);
 
     // Change Featured Drink
     function changeFeaturedDrink() {
